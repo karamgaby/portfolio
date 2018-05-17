@@ -16,7 +16,7 @@ ul.table-of-contents li:not(.logo) a.active,
 ul.table-of-contents li:not(.logo) a:hover{background-color:#fafafa;border-left:3px solid;}
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
 ul#slide-out li:not(.logo) a span{color:#333 !important;}
-li.logo span{display:block;font-size:14px;}
+li.logo span{display:block;font-size:16px;}
 .container{width:95%}
 h3{font-weight:200;margin-bottom:60px;margin-top:0;padding:30px 40px;text-transform:uppercase;}
 .section{padding-bottom:30px;padding-top:0;}
@@ -61,7 +61,7 @@ a.hoverline:hover{border-bottom:3px solid #009688 !important;}
 small{display:none;}
 @media (min-width:1200px){#experience .container{width:860px}
 }
-@media (max-width:1360px){.card ul li{font-size:14px;line-height:200%;margin-left:20px;}
+@media (max-width:1360px){.card ul li{font-size:16px;line-height:200%;margin-left:20px;}
 }
 @media (max-width:1160px){.card ul li{line-height:150%;}
 }
@@ -77,7 +77,7 @@ nav.hide-on-large.only.trigger{display:block;position:fixed;top:0;z-index:2;}
 .name-title > span,
 .name-title > a{position:relative;line-height:20px;}
 .name-title a{font-size:22px;display:block;}
-.name-title span{display:block;font-size:14px;}
+.name-title span{display:block;font-size:16px;}
 h3,
 .container{position:relative;top:64px;}
 section#intro{margin-bottom:-64px;}
