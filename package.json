@@ -5,8 +5,8 @@
   "main": "index.jade",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -a 0.0.0.0 -p 8001",
-    "tests": "gulp-jade"
+    "starts": "localhost",
+    "start": "http-server -a 0.0.0.0 -p 8001"
   },
   "repository": {
     "type": "git",
@@ -25,20 +25,18 @@
   },
   "homepage": "https://github.com/andrewborstein/portfolio",
   "devDependencies": {
-    "connect": "^3.4.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-jade": "^0.15.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-jade-tasks": "0.0.0"
+    "connect": "^3.6.6",
+    "grunt": "^1.0.3",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-jade-tasks": "0.0.0",
+    "serve-static": "^1.13.2"
   },
   "dependencies": {
     "acorn": "^4.0.3",
-    "clean-css": "^3.4.22",
-    "grunt-contrib-connect": "^1.0.2",
-    "gulp": "^3.9.1",
-    "gulp-jade": "^1.1.0",
-    "serve-static": "^1.12.4",
-    "uglify-js": "^2.7.5",
+    "clean-css": "^4.2.1",
+    "uglify-js": "^2.8.29",
     "with": "^5.1.1"
   }
 }

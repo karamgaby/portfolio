@@ -5,8 +5,9 @@ section#projects.section.scrollspy
             // BOT
             .col.s12.m6.l4
                 .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/bot.svg', alt="Bot")
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/bot-logo.png)'
+                    })
                     .card-content
                         span.card-title.activator.teal-text.hoverline Dribbling LB
                             i.mdi-navigation-more-vert.right
@@ -20,15 +21,18 @@ section#projects.section.scrollspy
                             li Developed using WordPress PHP framework
                             li Theme edit under child theme.
                             li Adding special icons as css icon not image.
+                            li
+                                stong After 1st release the website had changed by other developers
 
                         .card-action
-                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://bo.today/', rel="noopener", target='_blank', data-position='top', data-tooltip='View Online')
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://letsbot.io', rel="noopener", target='_blank', data-position='top', data-tooltip='View Online')
                                 i.fa.fa-external-link
             // Dribbling LB
             .col.s12.m6.l4
                 .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/dribbling-lb.jpg', alt="Dribbling LB")
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/dribbling-lb.jpg)'
+                    })
                     .card-content
                         span.card-title.activator.teal-text.hoverline Dribbling LB
                             i.mdi-navigation-more-vert.right
@@ -46,9 +50,10 @@ section#projects.section.scrollspy
                                 i.fa.fa-external-link
             // Cook For Syria
             .col.s12.m6.l4
-                .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/cookforsyria.jpg', alt="Cook For Syria")
+                .card.medium.cfs-card
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/cookforsyria.jpg)'
+                    })
                     .card-content
                         span.card-title.activator.teal-text.hoverline Cook For Syria
                             i.mdi-navigation-more-vert.right
@@ -65,11 +70,107 @@ section#projects.section.scrollspy
                             a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://cookforsyria.com/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
                                 i.fa.fa-external-link
 
+            // Imported Brands International
+            .col.s12.m6.l4
+                .card.medium
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/imported-brands-international.png)'
+                    })
+                    .card-content
+                        span.card-title.activator.teal-text.hoverline Imported Brands International
+                            i.mdi-navigation-more-vert.right
+                        p A 35 year old company involved in the importation and distribution of spirits with soul.
+                    .card-reveal
+                        span.card-title.brown-text Accomplishments, within a team
+                            i.mdi-navigation-close.right
+                        ul
+                            li Developed the website based on UI design
+                            li Selected a theme that has a similar design and build on it
+                            li Developed a visual images system
+                        span Employed at
+                            a(href='https://codi.tech')  Codi.tech
+                        .card-action
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://importedbrands.co.uk/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                                i.fa.fa-external-link
+
+
+            // Limonada Mathe - Italy
+            .col.s12.m6.l4
+                .card.medium
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/limonda-mathe.png)'
+                    })
+                    .card-content
+                        span.card-title.activator.teal-text.hoverline Limonada Mathe
+                            i.mdi-navigation-more-vert.right
+                        p A unique blend of Yerba Mate and Sicilian Lemons.
+                    .card-reveal
+                        span.card-title.brown-text Accomplishments, within a team
+                            i.mdi-navigation-close.right
+                        ul
+                            li Maintained the website and server plus adding new features
+                            li Continued using Sage theme and Bedrock boilerplate
+                        span Employed at
+                            a(href='https://codi.tech')  Codi.tech
+                        .card-action
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://importedbrands.co.uk/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                                i.fa.fa-external-link
+
+            // NextGen Europe
+            .col.s12.m6.l4
+                .card.medium
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/NEXTGen-Logo.png)'
+                    })
+                    .card-content
+                        span.card-title.activator.teal-text.hoverline NextGen Europe
+                            i.mdi-navigation-more-vert.right
+                        p A global UNICEF initiative bringing together diverse groups of young professionals.
+                    .card-reveal
+                        span.card-title.brown-text Accomplishments, within a team
+                            i.mdi-navigation-close.right
+                        ul
+                            li Maintained two website and server plus adding new features
+                            li Made the website Adapt the GDPR rules.
+                            li Maintained a WordPress multi-site
+                        span Employed at
+                            a(href='https://codi.tech')  Codi.tech
+                        .card-action
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://nextgeneurope.org', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                                i.fa.fa-external-link
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://nextgenlondon.com/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                                i.fa.fa-external-link
+
+            // Razor Capital
+            .col.s12.m6.l4
+                .card.medium.razor-capital
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/razor-capital.png)'
+                    })
+                    .card-content
+                        span.card-title.activator.teal-text.hoverline Razor Capital
+                            i.mdi-navigation-more-vert.right
+                        p A venture capital and investment management firm with a focus on frontier markets.
+                    .card-reveal
+                        span.card-title.brown-text Accomplishments, within a team
+                            i.mdi-navigation-close.right
+                        ul
+                            li Transferred the website from
+                            li Made the website Adapt the GDPR rules.
+                            li Maintained a WordPress multi-site
+                        span Employed at
+                            a(href='https://codi.tech')  Codi.tech
+                        .card-action
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='httpS://razorcap.co', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                                i.fa.fa-external-link
+
+
             // Acmaved Lebanon
             .col.s12.m6.l4
                 .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/acmaved.png', alt="Acmaved Lebanon")
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/acmaved.png)'
+                    })
                     .card-content
                         span.card-title.activator.teal-text.hoverline Acmaved Lebanon
                             i.mdi-navigation-more-vert.right
@@ -87,34 +188,12 @@ section#projects.section.scrollspy
                             a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://acmavedlebanon.com/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
                                 i.fa.fa-external-link
 
-            // Al Buna
-            .col.s12.m6.l4
-                .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/buna.jpg', alt="Al Buna")
-                    .card-content
-                        span.card-title.activator.teal-text.hoverline Al Buna
-                            i.mdi-navigation-more-vert.right
-                        p Al Buna is a real estate and construction company specializing in real estate investment and touristic development
-                    .card-reveal
-                        span.card-title.brown-text Accomplishments
-                            i.mdi-navigation-close.right
-                        ul
-                            li Front-end development in #[strong Bootstrap]
-                            li Contributed creative strategy and UX
-                            li Worked with #[strong MVC] framework, #[strong Laravel] server
-                            li #[strong Dynamic CSS] color coding
-                        span Freelance at
-                            a(href='https://jkbeirut.com' , rel="noopener" )  jkbeirut.com
-                        .card-action
-                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://ri-wifi.herokuapp.com', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
-                                i.fa.fa-external-link
-
             // Security Door with Facial Recognition
             .col.s12.m6.l4
-                .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/facialrecog.jpg', "Security Door with Facial Recognition")
+                .card.medium.security-door
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/facialrecog.jpg)'
+                    })
                     .card-content
                         span.card-title.activator.teal-text.hoverline Security Door with Facial Recognition
                             i.mdi-navigation-more-vert.right
@@ -134,8 +213,9 @@ section#projects.section.scrollspy
             // AUL-Kaslik | Mobile App
             .col.s12.m6.l4
                 .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/aul.jpg', alt="AUL-Kaslik Logo")
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/aul.jpg)'
+                    })
                     .card-content
                         span.card-title.activator.teal-text.hoverline AUL-Kaslik | Mobile App #[strong (Version 1)]
                             i.mdi-navigation-more-vert.right
@@ -149,14 +229,15 @@ section#projects.section.scrollspy
                             li #[strong Google Maps API] integration
                         .card-action
                             a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://play.google.com/store/apps/details?id=com.ionicframework.aullkaslik480745', rel="noopener" , target='_blank', data-position='top', data-tooltip='View On Play store')
-                                i.fa.fa-external-link
+                                i.fa.fa-google
                             a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://itunes.apple.com/lb/app/aul-kaslik/id1167612531?mt=8', rel="noopener" , target='_blank', data-position='top', data-tooltip='View On Apple store')
-                                i.fa.fa-external-link
+                                i.fa.fa-apple
             // AUL-Kaslik | Mobile App
             .col.s12.m6.l4
                 .card.medium
-                    .card-image.waves-effect.waves-block.waves-light
-                        img.activator(src='static/img/beity_logo.png', alt="Beity")
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                        'background-image': 'URL(static/img/beity_logo.png)'
+                    })
                     .card-content
                         span.card-title.activator.teal-text.hoverline Beity Lebanese Restaurant | France
                             i.mdi-navigation-more-vert.right
@@ -171,5 +252,5 @@ section#projects.section.scrollspy
                         span Freelance at
                             a(href='https://jkbeirut.com', rel="noopener" )  jkbeirut.com
                         .card-action
-                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://beity.jkbeirut.co', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://beity.fr/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
                                 i.fa.fa-external-link

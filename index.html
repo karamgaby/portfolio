@@ -18,15 +18,15 @@
     <meta property="og:description" content="I want to make things that make a difference.">
     <meta property="og:url" content="gabykaram.com">
     <meta property="og:site_name" content="Gaby Karam | Full Stack Developer">
-    <meta property="article:publisher" content="gabykaram.com.com">
+    <meta property="article:publisher" content="gabykaram.com">
     <meta property="og:image" content="">
     <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gk_guibs">
     <meta name="twitter:title" content="Gaby Karam | Full Stack Developer">
     <meta name="twitter:description" content="I want to make things that make a difference.">
     <meta name="twitter:url" content="gabykaram.com">
     <meta name="author" content="Gaby Karam">
     <meta name="description" content="I want to make things that make a difference.">
-    <link rel="manifest" href="/manifest.json">
     <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
@@ -47,14 +47,13 @@
     <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
     -->
     <meta name="robots" content="index, follow">
-    <!-- Global site tag (gtag.js) - Google Analytics-->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118360245-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-118360245-1');
-      
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-39096633-2', 'auto');
+      ga('send', 'pageview');
     </script>
     <meta name="google-site-verification" content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y">
   </head>
@@ -62,41 +61,41 @@
     <!-- Navigation Menu-->
     <nav ng-class="hide-on-small-only">
       <ul class="side-nav fixed section table-of-contents">
-        <li class="logo"><a id="logo-container" href="#intro" class="brand-logo teal-text">Gaby Karam<span class="brown-text light">Full Stack Developer</span></a></li>
-        <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
-        <li class="bold"><a href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
-        <li class="bold"><a href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
-        <li class="bold"><a href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
-        <!--li.bold-->
-        <!--  a.waves-effect.waves-dark.red-text(href='#awards')-->
-        <!--    i.mdi-action-grade.small-->
-        <!--    span Awards-->
-        <li class="bold"><a href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
-        <li class="bold"><a href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-        <li class="bold"><a href="Gaby%20Karam%20-%20Resume%20(9.17.17).pdf" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+        <li class="logo"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
+            <h1>Gaby Karam<span class="brown-text light">Full Stack Developer</span></h1></a></li>
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <!--li.bold
+        a.waves-effect.waves-dark.red-text(aria-label='Navigate to the Awards section', href='#awards')
+          i.mdi-action-grade.small
+          span Awards
+        -->
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Gaby's resume in a new tab" href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
       </ul>
     </nav>
-    <nav class="hide-on-large only trigger z-depth-1"><a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      <div class="name-title"><a id="name" href="#main" class="teal-text">Gaby Karam</a><span class="brown-text light">Full Stack Developer</span></div>
+    <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Gaby Karam</a><span class="brown-text light">Full Stack Developer</span></div>
     </nav>
     <nav class="hide-on-large only">
       <ul id="slide-out" class="side-nav">
-        <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
-        <li class="bold"><a href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
-        <li class="bold"><a href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
-        <li class="bold"><a href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
-        <!--li.bold-->
-        <!--  a.waves-effect.waves-dark.red-text(href='#awards')-->
-        <!--    i.mdi-action-grade.small-->
-        <!--    span Awards-->
-        <li class="bold"><a href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
-        <li class="bold"><a href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-        <li class="bold"><a href="Gaby%20Karam%20-%20Resume%20(9.17.17).pdf" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Gaby Resume in a new tab" href="Gaby%20Karam%20-%20Resume%20(9.17.17).pdf" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resumes</span></a></li>
       </ul>
     </nav>
     <!-- Main Content-->
     <main>
       <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
         <div class="container">
           <h2>I want to <span class="teal">make things</span><br>that <span class="underline">make a difference</span>.</h2>
         </div>
@@ -104,7 +103,9 @@
       <section id="about" class="section scrollspy">
         <h3 class="page-title white-text teal">About</h3>
         <div class="container flow-text">
-          <blockquote>Mission-driven full stack developer with a passion for thoughtful UI design, collaboration, and teaching.</blockquote>
+          <blockquote>
+            <h2>Mission-driven full stack developer with a passion for thoughtful UI design, collaboration, and teaching.</h2>
+          </blockquote>
           <p>Gaby is a highly experienced and creative coder. He is spontaneous in his decisions and believes in body asleep mind awake. He is willing to participate in any hackathons near him. If you give him a pc and put Pink Floyd music, he will write the best code.</p>
           <p>As a web developer, I intend to use my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world.</p>
           <p><strong>I want to make things that make a difference</strong>.</p>
@@ -116,11 +117,37 @@
           <div class="card">
             <div class="card-content">
               <div class="row">
+                <div class="col s12 m2"><a href="https://codi.tech" target="_blank"><img alt="Codi Studio logo" src="static/img/codi-logo.svg" class="responsive-img center-block"></a></div>
                 <div class="col s12 m10">
-                  <p><span class="card-title"><a href="http://inboundhorizons.com" rel="noopener" target="_blank" class="teal-text hoverline">INBOUND HORIZON – LB</a></span></p>
+                  <p><span class="card-title"><a href="https://codi.tech" target="_blank" class="teal-text hoverline">INBOUND HORIZON</a></span></p>
                 </div>
               </div>
-              <div class="role brown-text">Software Developer Intern</div>
+              <div class="role brown-text">Full-Stack Developer & Digital Producer</div>
+              <p><em class="grey-text">
+                  Digital / Tech studio which focuses on designing and delivering digital products for
+                  clients across Europe and MENA region.</em></p>
+              <ul>
+                <li>Take briefs from clients</li>
+                <li>Plan project schedules</li>
+                <li>Secure linux servers and deploy projects</li>
+                <li>Highlight any issues and strive to resolve them</li>
+                <li>Verify, prioritize, and fix software bugs</li>
+                <li>Build new features</li>
+                <li>Deployed Redmine on private server</li>
+                <li>Stack: PHP / WordPress / React / SQL / Javascript / Sass</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Dec 2018 - Present  |  Hazmieh, LB</span></div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="https://inboundhorizons.com" target="_blank"><img alt="INBOUND HORIZON logo" src="static/img/inbound-horizons-lebanon.jpeg" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="https://inboundhorizons.com" target="_blank" class="teal-text hoverline">INBOUND HORIZON</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Full-Stack Web & Mobile Developer</div>
               <p><em class="grey-text">American Digital/Online Marketing Agency</em></p>
               <h6>Develop Core Product</h6>
               <ul>
@@ -137,35 +164,6 @@
             </div>
             <div class="card-action"><span>Jan 2016 - Aug 2016  |  Hazmieh, LB</span></div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="row">
-                <div class="col s12 m10">
-                  <p><span class="card-title"><a href="http://codi.tech" rel="noopener" target="_blank" class="teal-text hoverline">Codi Studio – LB</a></span></p>
-                </div>
-              </div>
-              <div class="role brown-text">Developer & Digital Producer</div>
-              <p><em class="grey-text">
-                  digital / tech studio which focuses on designing and delivering digital products for
-                  clients across Europe and MENA.</em></p>
-              <h6>Develop Core Product</h6>
-              <ul>
-                <li>Take briefs from clients</li>
-                <li>Plan project schedules</li>
-                <li>Highlight any issues and strive to resolve them</li>
-                <li>Verify, prioritize, and fix software bugs</li>
-                <li>Build new features.</li>
-                <li>Stack: PHP / WordPress / SQL / Javascript / Sass</li>
-              </ul>
-              <!--
-              h6 Accomplishments
-              ul
-                  li Developed a mobile app using Onsen UI and Monaca
-                  li Introduced to JIRA software and Agile methodology
-              -->
-            </div>
-            <div class="card-action"><span>Jan 2016 - Aug 2016  |  Hazmieh, LB</span></div>
-          </div>
         </div>
       </section>
       <section id="projects" class="section scrollspy">
@@ -175,7 +173,7 @@
             <!-- BOT-->
             <div class="col s12 m6 l4">
               <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/bot.svg" alt="Bot" class="activator"></div>
+                <div style="background-image:URL(static/img/bot-logo.png)" class="card-image waves-effect waves-block waves-light"></div>
                 <div class="card-content"><span class="card-title activator teal-text hoverline">Dribbling LB<i class="mdi-navigation-more-vert right"></i></span>
                   <p>BOT (Building Opportunities Today) is a socially responsible outsourcing platform.</p>BOT offers digital opportunities to economically marginalized women and youth whom reside in
                   all parts of Lebanon.
@@ -185,15 +183,18 @@
                     <li>Developed using WordPress PHP framework</li>
                     <li>Theme edit under child theme.</li>
                     <li>Adding special icons as css icon not image.</li>
+                    <li>
+                      <stong>After 1st release the website had changed by other developers</stong>
+                    </li>
                   </ul>
-                  <div class="card-action"><a href="http://bo.today/" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                  <div class="card-action"><a href="http://letsbot.io" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
                 </div>
               </div>
             </div>
             <!-- Dribbling LB-->
             <div class="col s12 m6 l4">
               <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/dribbling-lb.jpg" alt="Dribbling LB" class="activator"></div>
+                <div style="background-image:URL(static/img/dribbling-lb.jpg)" class="card-image waves-effect waves-block waves-light"></div>
                 <div class="card-content"><span class="card-title activator teal-text hoverline">Dribbling LB<i class="mdi-navigation-more-vert right"></i></span>
                   <p>Lebanese Basketball News Online BMobile-focused web app where users can explore, collect, and share skate spots.log</p>
                 </div>
@@ -210,8 +211,8 @@
             </div>
             <!-- Cook For Syria-->
             <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/cookforsyria.jpg" alt="Cook For Syria" class="activator"></div>
+              <div class="card medium cfs-card">
+                <div style="background-image:URL(static/img/cookforsyria.jpg)" class="card-image waves-effect waves-block waves-light"></div>
                 <div class="card-content"><span class="card-title activator teal-text hoverline">Cook For Syria<i class="mdi-navigation-more-vert right"></i></span>
                   <p>A celebration of Syrian cuisine in aid of the largest humanitarian crisis of our time.</p>
                 </div>
@@ -226,10 +227,77 @@
                 </div>
               </div>
             </div>
+            <!-- Imported Brands International-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div style="background-image:URL(static/img/imported-brands-international.png)" class="card-image waves-effect waves-block waves-light"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Imported Brands International<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>A 35 year old company involved in the importation and distribution of spirits with soul.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments, within a team<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Developed the website based on UI design</li>
+                    <li>Selected a theme that has a similar design and build on it</li>
+                    <li>Developed a visual images system</li>
+                  </ul><span>Employed at<a href="https://codi.tech"> Codi.tech</a></span>
+                  <div class="card-action"><a href="https://importedbrands.co.uk/" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Limonada Mathe - Italy-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div style="background-image:URL(static/img/limonda-mathe.png)" class="card-image waves-effect waves-block waves-light"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Limonada Mathe<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>A unique blend of Yerba Mate and Sicilian Lemons.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments, within a team<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Maintained the website and server plus adding new features</li>
+                    <li>Continued using Sage theme and Bedrock boilerplate</li>
+                  </ul><span>Employed at<a href="https://codi.tech"> Codi.tech</a></span>
+                  <div class="card-action"><a href="https://importedbrands.co.uk/" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- NextGen Europe-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div style="background-image:URL(static/img/NEXTGen-Logo.png)" class="card-image waves-effect waves-block waves-light"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">NextGen Europe<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>A global UNICEF initiative bringing together diverse groups of young professionals.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments, within a team<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Maintained two website and server plus adding new features</li>
+                    <li>Made the website Adapt the GDPR rules.</li>
+                    <li>Maintained a WordPress multi-site</li>
+                  </ul><span>Employed at<a href="https://codi.tech"> Codi.tech</a></span>
+                  <div class="card-action"><a href="https://nextgeneurope.org" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a href="https://nextgenlondon.com/" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Razor Capital-->
+            <div class="col s12 m6 l4">
+              <div class="card medium razor-capital">
+                <div style="background-image:URL(static/img/razor-capital.png)" class="card-image waves-effect waves-block waves-light"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Razor Capital<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>A venture capital and investment management firm with a focus on frontier markets.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments, within a team<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Transferred the website from</li>
+                    <li>Made the website Adapt the GDPR rules.</li>
+                    <li>Maintained a WordPress multi-site</li>
+                  </ul><span>Employed at<a href="https://codi.tech"> Codi.tech</a></span>
+                  <div class="card-action"><a href="httpS://razorcap.co" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
             <!-- Acmaved Lebanon-->
             <div class="col s12 m6 l4">
               <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/acmaved.png" alt="Acmaved Lebanon" class="activator"></div>
+                <div style="background-image:URL(static/img/acmaved.png)" class="card-image waves-effect waves-block waves-light"></div>
                 <div class="card-content"><span class="card-title activator teal-text hoverline">Acmaved Lebanon<i class="mdi-navigation-more-vert right"></i></span>
                   <p>commercial company specializing primarily in marketing veterinary drugs. vaccines and poultry equipment.</p>
                 </div>
@@ -243,28 +311,10 @@
                 </div>
               </div>
             </div>
-            <!-- Al Buna-->
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/buna.jpg" alt="Al Buna" class="activator"></div>
-                <div class="card-content"><span class="card-title activator teal-text hoverline">Al Buna<i class="mdi-navigation-more-vert right"></i></span>
-                  <p>Al Buna is a real estate and construction company specializing in real estate investment and touristic development</p>
-                </div>
-                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
-                  <ul>
-                    <li>Front-end development in <strong>Bootstrap</strong></li>
-                    <li>Contributed creative strategy and UX</li>
-                    <li>Worked with <strong>MVC</strong> framework, <strong>Laravel</strong> server</li>
-                    <li><strong>Dynamic CSS</strong> color coding</li>
-                  </ul><span>Freelance at<a href="https://jkbeirut.com" rel="noopener"> jkbeirut.com</a></span>
-                  <div class="card-action"><a href="http://ri-wifi.herokuapp.com" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
-                </div>
-              </div>
-            </div>
             <!-- Security Door with Facial Recognition-->
             <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/facialrecog.jpg" Security Door with Facial Recognition class="activator"></div>
+              <div class="card medium security-door">
+                <div style="background-image:URL(static/img/facialrecog.jpg)" class="card-image waves-effect waves-block waves-light"></div>
                 <div class="card-content"><span class="card-title activator teal-text hoverline">Security Door with Facial Recognition<i class="mdi-navigation-more-vert right"></i></span>
                   <p>Open door depending on user picture. Automate and control who can enter your house from mobile, and</p>
                 </div>
@@ -283,7 +333,7 @@
             <!-- AUL-Kaslik | Mobile App-->
             <div class="col s12 m6 l4">
               <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/aul.jpg" alt="AUL-Kaslik Logo" class="activator"></div>
+                <div style="background-image:URL(static/img/aul.jpg)" class="card-image waves-effect waves-block waves-light"></div>
                 <div class="card-content"><span class="card-title activator teal-text hoverline">AUL-Kaslik | Mobile App <strong>(Version 1)</strong><i class="mdi-navigation-more-vert right"></i></span>
                   <p>Mobile app that helps Students to checks exams schedule, events and much more.</p>
                 </div>
@@ -293,14 +343,14 @@
                     <li><strong>API</strong> using vanilla PHP</li>
                     <li><strong>Google Maps API</strong> integration</li>
                   </ul>
-                  <div class="card-action"><a href="https://play.google.com/store/apps/details?id=com.ionicframework.aullkaslik480745" rel="noopener" target="_blank" data-position="top" data-tooltip="View On Play store" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a href="https://itunes.apple.com/lb/app/aul-kaslik/id1167612531?mt=8" rel="noopener" target="_blank" data-position="top" data-tooltip="View On Apple store" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                  <div class="card-action"><a href="https://play.google.com/store/apps/details?id=com.ionicframework.aullkaslik480745" rel="noopener" target="_blank" data-position="top" data-tooltip="View On Play store" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-google"></i></a><a href="https://itunes.apple.com/lb/app/aul-kaslik/id1167612531?mt=8" rel="noopener" target="_blank" data-position="top" data-tooltip="View On Apple store" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-apple"></i></a></div>
                 </div>
               </div>
             </div>
             <!-- AUL-Kaslik | Mobile App-->
             <div class="col s12 m6 l4">
               <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light"><img src="static/img/beity_logo.png" alt="Beity" class="activator"></div>
+                <div style="background-image:URL(static/img/beity_logo.png)" class="card-image waves-effect waves-block waves-light"></div>
                 <div class="card-content"><span class="card-title activator teal-text hoverline">Beity Lebanese Restaurant | France<i class="mdi-navigation-more-vert right"></i></span>
                   <p>Restaurant website to show of menu item and facilitate the customers experience.</p>
                 </div>
@@ -310,7 +360,7 @@
                     <li>Designed and developed the look and feel of the website</li>
                     <li>Worked with <strong>MVC</strong> framework, <strong>Laravel</strong> server</li>
                   </ul><span>Freelance at<a href="https://jkbeirut.com" rel="noopener"> jkbeirut.com</a></span>
-                  <div class="card-action"><a href="http://beity.jkbeirut.co" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                  <div class="card-action"><a href="http://beity.fr/" rel="noopener" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
                 </div>
               </div>
             </div>
@@ -324,8 +374,9 @@
             <div class="card-content">
               <h4 class="brown-text light">HTML</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img src="static/img/html5.png" alt="HTML5" class="responsive-img">HTML5</div>
-                <div class="col s4 m2"><img src="static/img/jade.png" alt="Jade" class="responsive-img">Pug(Jade)</div>
+                <div class="col s4 m2"><img alt="" src="static/img/html5.png" class="responsive-img">HTML5</div>
+                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">JSX</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jade.png" class="responsive-img">Jade.col.s4.m2</div>
               </div>
             </div>
           </div>
@@ -333,10 +384,10 @@
             <div class="card-content">
               <h4 class="brown-text light">CSS</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img src="static/img/css3.png" alt="CSS3" class="responsive-img">CSS3</div>
-                <div class="col s4 m2"><img src="static/img/sass.png" alt="SASS" class="responsive-img">SASS</div>
+                <div class="col s4 m2"><img alt="" src="static/img/css3.png" class="responsive-img">CSS3</div>
+                <div class="col s4 m2"><img alt="" src="static/img/sass.png" class="responsive-img">SASS</div>
+                <div class="col s4 m2"><img alt="" src="static/img/bootstrap.png" class="responsive-img">Bootstrap</div>
                 <div class="col s4 m2"><img src="static/img/stylus.png" alt="STYLUS" class="responsive-img">STYLUS</div>
-                <div class="col s4 m2"><img src="static/img/bootstrap.png" alt="Bootstrap" class="responsive-img">Bootstrap</div>
               </div>
             </div>
           </div>
@@ -344,12 +395,12 @@
             <div class="card-content">
               <h4 class="brown-text light">Javascript</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img src="static/img/react.png" alt="React" class="responsive-img">React</div>
-                <div class="col s4 m2"><img src="static/img/jquery.png" alt="jQuery" class="responsive-img">jQuery</div>
-                <div class="col s4 m2"><img src="static/img/javascript.png" alt="Javascript" class="responsive-img">Javascript</div>
-                <div class="col s4 m2"><img src="static/img/angular.png" alt="Angular" class="responsive-img">Angular</div>
-                <div class="col s4 m2"><img src="static/img/nodejs.png" alt="Node" class="responsive-img">Node</div>
-                <div class="col s4 m2"><img src="static/img/ionic.png" alt="Ionic" class="responsive-img">Ionic</div>
+                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">React</div>
+                <div class="col s4 m2"><img alt="" src="static/img/javascript.png" class="responsive-img">Javascript</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jquery.png" class="responsive-img">jQuery</div>
+                <div class="col s4 m2"><img alt="" src="static/img/angular.png" class="responsive-img">Angular</div>
+                <div class="col s4 m2"><img alt="" src="static/img/nodejs.png" class="responsive-img">Node</div>
+                <div class="col s4 m2"><img alt="" src="static/img/ionic.png" class="responsive-img">Ionic</div>
               </div>
             </div>
           </div>
@@ -368,7 +419,10 @@
             <div class="card-content">
               <h4 class="brown-text light">Build Tools</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img src="static/img/webpack.png" alt="Webpack" class="responsive-img">Webpack</div>
+                <div class="col s4 m2"><img alt="" src="static/img/webpack.png" class="responsive-img">Webpack</div>
+                <div class="col s4 m2"><img alt="" src="static/img/gulp.png" class="responsive-img">Gulp</div>
+                <div class="col s4 m2"><img alt="" src="static/img/grunt.png" class="responsive-img">Grunt</div>
+                <div class="col s4 m2"><img alt="" src="static/img/bower.png" class="responsive-img">Bower</div>
               </div>
             </div>
           </div>
@@ -376,7 +430,7 @@
             <div class="card-content">
               <h4 class="brown-text light">CMS</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img src="static/img/wordpress.png" alt="WordPress" class="responsive-img">WordPress</div>
+                <div class="col s4 m2"><img alt="" src="static/img/wordpress.png" class="responsive-img">Wordpress</div>
                 <div class="col s4 m2"><img src="static/img/keystonejs.jpg" alt="Keystone Js" class="responsive-img">Keystone Js</div>
               </div>
             </div>
@@ -394,8 +448,9 @@
             <div class="card-content">
               <h4 class="brown-text light">Other</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img src="static/img/github.png" alt="Github" class="responsive-img">Github</div>
-                <div class="col s4 m2"><img src="static/img/photoshop.png" alt="Photoshop" class="responsive-img">Photoshop</div>
+                <div class="col s4 m2"><img alt="" src="static/img/github.png" class="responsive-img">Github</div>
+                <div class="col s4 m2"><img alt="" src="static/img/heroku.png" class="responsive-img">Heroku</div>
+                <div class="col s4 m2"><img alt="" src="static/img/photoshop.png" class="responsive-img">Photoshop</div>
                 <div class="col s4 m2"><img src="static/img/illustrator.png" alt="Illustrator" class="responsive-img">Illustrator</div>
               </div>
             </div>
@@ -446,16 +501,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
     <script>
       // Materialize - Initializers
-      $(document).ready(function () {
-          $('.scrollspy').scrollSpy();
-          // Initialize collapse button
-          $(".button-collapse").sideNav({
-                  menuWidth: 190, // Default is 240
-                  edge: 'left', // Choose the horizontal origin
-                  closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-              }
-          );
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+            menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
       });
     </script>
+    <!-- nothing to see here...--><small>
+           ___                       ___           ___                    ___                                     ___
+          /\  \                     /\__\         /\  \                  /\__\                      ___          /\__\
+          \:\  \       ___         /:/ _/_        \:\  \                /:/ _/_       ___          /\  \        /:/ _/_
+           \:\  \     /\__\       /:/ /\  \        \:\  \              /:/ /\__\     /\__\         \:\  \      /:/ /\__\
+       ___ /::\  \   /:/__/      /:/ /::\  \   ___ /::\  \            /:/ /:/  /    /:/__/          \:\  \    /:/ /:/ _/_
+      /\  /:/\:\__\ /::\  \     /:/__\/\:\__\ /\  /:/\:\__\          /:/_/:/  /    /::\  \      ___  \:\__\  /:/_/:/ /\__\
+      \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  / \:\/:/  \/__/          \:\/:/  /     \/\:\  \__  /\  \ |:|  |  \:\/:/ /:/  /
+       \::/__/       ~~\:\/\__\  \:\  /:/  /   \::/__/                \::/__/       ~~\:\/\__\ \:\  \|:|  |   \::/_/:/  /
+        \:\  \          \::/  /   \:\/:/  /     \:\  \                 \:\  \          \::/  /  \:\__|:|__|    \:\/:/  /
+         \:\__\         /:/  /     \::/  /       \:\__\                 \:\__\         /:/  /    \::::/__/      \::/  /
+          \/__/         \/__/       \/__/         \/__/                  \/__/         \/__/      ~~~~           \/__/</small>
   </body>
 </html>
