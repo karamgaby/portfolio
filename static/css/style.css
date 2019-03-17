@@ -208,6 +208,16 @@ h3 {
     text-transform: uppercase;
 }
 
+.card.razor-capital .card-image {
+    background-color: #203b48;
+}
+
+.card .card-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 #experience .card-action {
     background-color: rgba(0, 0, 0, 0.02);
     border: none;
