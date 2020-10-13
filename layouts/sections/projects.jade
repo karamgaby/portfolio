@@ -2,11 +2,39 @@ section#projects.section.scrollspy
     h3.page-title.white-text.teal Projects
     .container
         .row
+            // Garder Le Cap
+            .col.s12.m6.l4
+                .card.medium
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                      'background-image': 'URL(static/img/garderlecap.png)',
+                      'background-color': '#1a1a1a'
+                    })
+                    .card-content
+                        span.card-title.activator.teal-text.hoverline Garder Le Cap
+                            i.mdi-navigation-more-vert.right
+                        p Garder Le Cap is a new challenge for Gwenael.
+                        | This time, he not only wants to dedicate his effort to the war wounded, but goes further
+                        | and invites all the sportsmen and women around the world to join him by being among the
+                        | «other heroes» of this adventure, by dedicating their event or their sporting challenge
+                        | to this same great cause. He now embodies the motto of his former regiment,
+                        | the 1st RPIMa: WHO DARE WINS!.
+                    .card-reveal
+                        span.card-title.brown-text Accomplishments
+                            i.mdi-navigation-close.right
+                        ul
+                            li Developed using React, Typescript & NodeJs for the backend
+                            li Integrating translation & smooth design
+                            li Integrating API for Youtube, PayPal, Stripe and Instagram
+                            li Adding an animation for the logo on the boot of the website
+                        .card-action
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://garderlecap.global/', rel="noopener", target='_blank', data-position='top', data-tooltip='View Online')
+                                i.fa.fa-external-link
+
             // BOT
             .col.s12.m6.l4
                 .card.medium
                     .card-image.waves-effect.waves-block.waves-light(style={
-                        'background-image': 'URL(static/img/bot-logo.png)'
+                      'background-image': 'URL(static/img/bot-logo.png)'
                     })
                     .card-content
                         span.card-title.activator.teal-text.hoverline B.O.T
@@ -27,32 +55,38 @@ section#projects.section.scrollspy
                         .card-action
                             a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://letsbot.io', rel="noopener", target='_blank', data-position='top', data-tooltip='View Online')
                                 i.fa.fa-external-link
-            // Dribbling LB
+
+            // Codi Tech
             .col.s12.m6.l4
                 .card.medium
                     .card-image.waves-effect.waves-block.waves-light(style={
-                        'background-image': 'URL(static/img/dribbling-lb.jpg)'
+                      'background-image': 'URL(static/img/codi-logo.svg)'
                     })
                     .card-content
-                        span.card-title.activator.teal-text.hoverline Dribbling LB
+                        span.card-title.activator.teal-text.hoverline Codi Tech
                             i.mdi-navigation-more-vert.right
-                        p Lebanese Basketball News Online BMobile-focused web app where users can explore, collect, and share skate spots.log
+                        p Codi Tech is a free school of programming for people who have a passion for digital
+                        | and want to build a career in technology but cannot pursue a traditional university education.
+
                     .card-reveal
                         span.card-title.brown-text Accomplishments
                             i.mdi-navigation-close.right
                         ul
-                            li Transformed The website from vanilla PHP to Laravel in 24 hour
-                            li Developed the Back-end
-                            li Created Back-end
-                            li Refactored all existing code (#[strong Laravel])
+                            li Website Maintenance from 2018 till Sep 2020.
+                            li Creating a custom donation page with using NetCommerce as payment gateway
+                            li Adding different sections into the website while maintaining the custom theme structure
+                            li
+                                stong supporting the new developer to continue on the right structure.
+
                         .card-action
-                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://dribbling-lb.com/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://codi.tech', rel="noopener", target='_blank', data-position='top', data-tooltip='View Online')
                                 i.fa.fa-external-link
+
             // Cook For Syria
             .col.s12.m6.l4
                 .card.medium.cfs-card
                     .card-image.waves-effect.waves-block.waves-light(style={
-                        'background-image': 'URL(static/img/cookforsyria.jpg)'
+                      'background-image': 'URL(static/img/cookforsyria.jpg)'
                     })
                     .card-content
                         span.card-title.activator.teal-text.hoverline Cook For Syria
@@ -253,4 +287,25 @@ section#projects.section.scrollspy
                             a(href='https://jkbeirut.com', rel="noopener" )  jkbeirut.com
                         .card-action
                             a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='http://beity.fr/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
+                                i.fa.fa-external-link
+            // Dribbling LB
+            .col.s12.m6.l4
+                .card.medium
+                    .card-image.waves-effect.waves-block.waves-light(style={
+                      'background-image': 'URL(static/img/dribbling-lb.jpg)'
+                    })
+                    .card-content
+                        span.card-title.activator.teal-text.hoverline Dribbling LB
+                            i.mdi-navigation-more-vert.right
+                        p Lebanese Basketball News Online BMobile-focused web app where users can explore, collect, and share skate spots.log
+                    .card-reveal
+                        span.card-title.brown-text Accomplishments
+                            i.mdi-navigation-close.right
+                        ul
+                            li Transformed The website from vanilla PHP to Laravel in 24 hour
+                            li Developed the Back-end
+                            li Created Back-end
+                            li Refactored all existing code (#[strong Laravel])
+                        .card-action
+                            a.btn-floating.btn-large.waves-effect.waves-light.brown.tooltipped(href='https://web.archive.org/web/20180823192102/http://dribbling-lb.com/', rel="noopener" , target='_blank', data-position='top', data-tooltip='View Online')
                                 i.fa.fa-external-link
